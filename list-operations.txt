@@ -1,0 +1,35 @@
+motorcycles = ['honda','yamaha','suzuki']
+
+
+
+#modify element in list
+motorcycles[1] = 'ducati'
+
+
+#append element at the end of list
+motorcycles.append('ducati')
+
+
+#Create empty list
+motorcycles = []
+
+#Insert element in the list at specific index
+motorcycles.insert(2,'tiko')
+
+
+#remove element from list without returning removed element
+del motorcycles[2]
+
+#remove element from list and return it
+    #remove last element and return removed element
+    last_element = motorcycles.pop()
+
+    #remove at specific index and return removed element
+    element = motorcycles.pop(2)
+
+
+#remove element from list by element itself
+too_expensive = 'yamaha'
+motorcycles.remove(too_expensive)
+
+
