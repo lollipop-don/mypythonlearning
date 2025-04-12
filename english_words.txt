@@ -1,0 +1,6 @@
+ordinal numbers - რიგობითი რიცხვი
+cardinal numbers - რაოდენობითი რიცხვი  
+case sensitive comparison - შედარება როცა A != a  
+case insensitive comparison - შედარება როცა A == a  
+number - რიცხვი
+digit - ციფრი
