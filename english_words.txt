@@ -4,3 +4,6 @@ case sensitive comparison - შედარება როცა A != a
 case insensitive comparison - შედარება როცა A == a  
 number - რიცხვი
 digit - ციფრი
+iterate  - ჩამოვლა
+colon - ორწეტილი
+comma - ,
