@@ -36,3 +36,43 @@ print(name_language_dict)
 #How to iterate values in dictionary, not repeating them. 
 for value in set(name_language_dict.values()):
     print(value)
+
+print("***********************************")
+favourite_languages = {
+    'jen' : ['python','rust'],
+    'sarah' : ['c'],
+    'edward' : ['rust','go'],
+    'phil' : ['python','haskell']
+}
+for name, languages in favourite_languages.items():
+    print(f"{name}'s favourite languages are :")
+    for value in languages:
+        print(f'\t {value}')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
