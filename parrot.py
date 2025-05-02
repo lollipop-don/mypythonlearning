@@ -1,3 +1,6 @@
-message = input('tell me something, and i will repeat it back to you')
+prompt = 'tell me something, and i will repeat it back to you\n'
 
-print(message)
+message = ''
+while True:
+  message = input(prompt)
+  print(message)
